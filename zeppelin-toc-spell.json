@@ -1,0 +1,33 @@
+{
+  "type": "SPELL",
+  "name": "zeppelin-toc-spell",
+  "version": "0.0.1",
+  "description": "Table of Contents for Zeppelin Notebooks",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Submersible/zeppelin-toc-spell.git"
+  },
+  "bugs": { "url": "https://github.com/Submersible/zeppelin-toc-spell/issues" },
+  "homepage": "https://github.com/Submersible/zeppelin-toc-spell#readme",
+  "scripts": {
+    "test": "yarn test"
+  },
+  "keywords": [
+    "zeppelin",
+    "table of contents",
+    "markdown"
+  ],
+  "author": "Ryan Munro <ryan@submersible.io>",
+  "license": "ISC",
+  "dependencies": {
+    "zeppelin-spell": "*"
+  },
+  "helium": {
+    "icon": "<i class='fa fa-list-ol'></i>",
+    "spell": {
+      "magic": "%toc",
+      "usage": "%toc"
+    }
+  }
+}
